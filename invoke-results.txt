@@ -1,1 +1,1 @@
-"Hello from CLI"
+"{\"firstName\":\"Long\",\"lastName\":\"Hackett\",\"address\":{\"streetAddress\":\"3280 Weston Skyway\",\"city\":\"Lake Freddie\",\"state\":\"CT\",\"postalCode\":\"24639-6219\",\"country\":\"Papua New Guinea\"},\"age\":25,\"phoneNumbers\":[{\"type\":\"home\",\"number\":\"(625) 657-4343\"},{\"type\":\"work\",\"number\":\"449-052-8137\"}]}"

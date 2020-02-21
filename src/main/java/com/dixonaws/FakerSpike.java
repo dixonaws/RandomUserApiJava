@@ -9,6 +9,10 @@ import java.util.Map;
 
 public class FakerSpike {
     public static void main(String args[]) {
+        System.out.println(generateUser());
+    } // main()
+
+    public static String generateUser() {
         Faker faker = new Faker();
 
         String streetName = faker.address().streetName();
@@ -60,7 +64,7 @@ public class FakerSpike {
         // putting phoneNumbers to JSONObject
         jsonObject.put("phoneNumbers", ja);
 
-        System.out.println(jsonObject.toJSONString());
+        return(jsonObject.toJSONString());
 
-    } // main()
+    } // generateUser()
 } // FakerSpike
